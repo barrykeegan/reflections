@@ -25,10 +25,25 @@ to commit you can remove them files from the staging area.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When adding new experimental features. It could help by allowing the freedom
+to explore with a new feature while taking away any worry you might have of
+breaking the main branch.
+
 How do the diagrams help you visualize the branch structure?
+
+The branch diagram helps to visualise at which point each branch came off
+the master branch so that you are able to tell which changes from the master
+branch are in either of the other branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+The changes between the different versions of files in the different branches
+are automatically merged together. We represent it in the diagram because the
+new head of the branch that you're currently on becomes the result of the
+merging of the two branches - additionally that merging becomes a commit of its
+own and that commit has two parents.  These parents are the tips of the branches
+that are being merged together.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
