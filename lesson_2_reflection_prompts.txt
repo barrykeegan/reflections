@@ -47,3 +47,10 @@ that are being merged together.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+manual merging would be massively time consuming. with git merging the Parts
+it can and raising conflicts for the parts it can't at least the manual effort
+is kept to a minimum.
+Pros: manual effort kept to a minimum
+Cons: small pieces of code that don't raise a conflict but which aren't strictly
+needed could sneak through to the end product,
