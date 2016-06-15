@@ -10,3 +10,22 @@ automatically stay up-to-date with your remote repository?
 
 - Changes made on the local master branch could cause errors or conflicts
   with the origin/master branch
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+- branches are alternate code paths within a project they can have commits that
+  are unique to their own branch and can be merged into other branches when the
+  developer chooses.#
+- clones are duplicates of projects. a project can be cloned from a local project
+  to a different location locally. a project can be cloned from your own remote
+  repository on github (or the like). a project can be cloned from another
+  users remote github (or the like) location.
+- forks are types of clones performed through github only. when logged into
+  github you can fork anybody elses public project to your own account which
+  you can then edit. forks allow the owner of the project to track the number
+  of forks and allows for easier merging of other developers forks back to the
+  parent project.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
