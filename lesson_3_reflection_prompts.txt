@@ -30,5 +30,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-so you can track changes between commits made and the last known pulled version
-from origin.
+so you can track changes between commits made locally and the last known pulled
+version from origin.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  You could collaborate by sending files back and forward through email or some
+  other similar service.
+  
+  It would be easier to not have to learn to use git. Version control and
+  conflict resolution would be much more difficult however.
